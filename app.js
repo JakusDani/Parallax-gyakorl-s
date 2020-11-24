@@ -28,7 +28,7 @@ window.addEventListener('scroll', () => {
         element.style.opacity = scroll / (sectionY.top + section_height) + 0.3;
     })
 
-    big_title.style.opacity = - scroll / (header_height / 6) + 1;
+    big_title.style.opacity = - scroll / (header_height / 2) + 1;
     shadow.style.height = `${scroll * 0.5 + 300}px`;
 
     content.style.transform = `translateY(${scroll / (section_height + sectionY.top) * 65.95 - 50}px)`;
