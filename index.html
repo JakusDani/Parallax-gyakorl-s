@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Parallax Design</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+        <header>
+            <!-- navigation bar és hamburger menu -->
+            <nav>
+                <div class="container">
+                    <h3 class="logo">Brand<span>Name</span></h3>
+                    <div class="hamburger-menu">
+                        <div class="bar">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <h1 class="big-title translate" data-speed="0.2">Discover.</h1>
+
+            <!-- képek a parallax háttérhez -->
+            <img src="img/sziklaLany.png" alt="" class="person translate" data-speed="0.2">
+            <img src="img/hegy1.png" alt="" class="hegy1 translate" data-speed="-0.25">
+            <img src="img/hegy2.png" alt="" class="hegy2 translate" data-speed="-0.2">
+            <img src="img/hegy3.png" alt="" class="hegy3 translate" data-speed="-0.4">
+            <img src="img/sky.png" alt="" class="sky translate" data-speed="0.5">
+        </header>
+
+        <!-- a weblap többi része -->
+        <section>
+            <!-- árnyék -->
+            <div class="shadow"></div>
+
+            <div class="container">
+                <div class="content opacity">
+                    <h3 class="title">
+                        About
+                        <!-- ez a about alatt lévő vonal -->
+                        <div class="border"></div>
+                    </h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Magni maxime ex libero ab deleniti? Distinctio nostrum deleniti
+                                    architecto ex eius laborum fuga ipsa ipsam vitae, ea deserunt expedita 
+                                    dolore dicta accusantium cumque accusamus provident voluptate corrupti!
+                                    Vitae blanditiis aspernatur eum nisi atque ipsam.</p>
+                </div>
+
+                <div class="imgContainer opacity">
+                    <img src="./img/kep.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
